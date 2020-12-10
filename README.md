@@ -7,10 +7,6 @@ A nice Jupyter notebook template for scientific projects.
 - `Latex` integration
 - Citations from `Zotero`
 
-
-#### Example pdf output
-
-
 ## Installation
 After cloning the repository follow the next two steps.
 
@@ -77,6 +73,20 @@ On top there are some tabs, one of which is the nbextensions tab. In there you c
 - plotly (if installed)
 
 ## Generating output
+
+First update the meta data of your notebook
+```
+Edit > Edit Notebook Metadata
+```
+And edit this part
+```
+"latex_metadata": {
+    "affiliation": "University of Groningen, Zernike institute for advanced materials, Nijenborg 4 Groningen, The Netherlands",
+    "author": "Marick Manrho",
+    "title": "template"
+  }
+```
+
 To generate `html` output
 ```
 jupyter nbconvert --to html --TemplateExporter.exclude_input=True [Example].ipynb
