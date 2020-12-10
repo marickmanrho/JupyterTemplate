@@ -24,8 +24,9 @@ jupyter contrib nbextension install --user
 python3 -m pip install cite2c
 python3 -m cite2c.install
 
-# Latex for pdf output
+# Latex for pdf and html output
 apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+python3 -m pip install citeproc-py unicode_tex
 
 # nglview for MDAnalysis users
 python3 -m pip install nglview
@@ -45,8 +46,9 @@ jupyter contrib nbextension install --user
 python3 -m pip install cite2c
 python3 -m cite2c.install
 
-# Latex for pdf output
+# Latex for pdf and html output
 apt-get install texlive-xetex texlive-fonts-recommended texlive-plain-generic
+python3 -m pip install citeproc-py unicode_tex
 
 # nglview for MDAnalysis users
 conda install nglview -c conda-forge
