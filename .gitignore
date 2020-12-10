@@ -130,9 +130,10 @@ dmypy.json
 
 
 # LATEX
-.aux
-.bbl
-.blg
-.end
-.out
-.synctex.gz
+*.aux
+*.bbl
+*.blg
+*.end
+*.out
+*.synctex.gz
+*.bib

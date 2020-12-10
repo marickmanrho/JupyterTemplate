@@ -84,7 +84,7 @@ jupyter nbconvert --to html --TemplateExporter.exclude_input=True [Example].ipyn
 
 To generate `pdf` output
 ```
-jupyter nbconvert --to latex [Example].ipynb  
+jupyter nbconvert --to latex --LatexExporter.template_file=./config/revtex_nocode.tplx [Example].ipynb
 pdflatex [example].tex
 ```
 
@@ -100,3 +100,4 @@ Upon calling `nbconvert` the script `jupyter_nbconvert_config.py` is run. This p
 - [cite2c Zotero references](https://github.com/takluyver/cite2c)
 - [Ultimate Jupyter notebook guide](http://blog.juliusschulz.de/blog/ultimate-ipython-notebook)
 - [Custom latex template for notebooks](https://michaelgoerz.net/notes/custom-template-for-converting-jupyter-notebooks-to-latex.html)
+- [Jupyter publication scripts (GitHub)](https://github.com/schlaicha/jupyter-publication-scripts)
